@@ -41,6 +41,13 @@ Install Live Server:
 5. **Start the Server:**
 Ensure your app server is running. Update your `package.json` if needed to include the "server" script and start it with `npm run server`.
 
+## Running Tests
+
+1. Open test.html:
+- Right-click on `test.html` and select "Open with Live Server" to launch it in your browser.
+2. Check Initial Setup:
+- At this stage, you should see the test page.
+
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
