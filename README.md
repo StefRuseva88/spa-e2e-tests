@@ -49,12 +49,20 @@ Ensure your app server is running. Update your `package.json` if needed to inclu
      
 ## Writing Integration Tests
 
-1. Open `integration.test.js`:
+1. **Open `integration.test.js`:**
    - Write code to set up and run your integration tests.
-2. Run the Test:
+2. **Run the Test:**
    - Save `integration.test.js`.
    - Refresh the `test.html` page in your browser to see the test results.
      
+## Testing Functionalities
+
+1. **Test Game Functionality**
+   - Get All Games: Test the API endpoint to retrieve all games and validate the response.
+   - Create Game: Test creating a new game and ensure the response is as expected.
+   - Get Game By Id: Verify that retrieving a game by ID works correctly.
+   - Edit Game: Test editing an existing game and confirm the changes.
+   - Delete Game: Ensure that deleting a game is handled correctly.
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
