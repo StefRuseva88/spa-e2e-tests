@@ -34,7 +34,6 @@
 3. **Create HTML and JS Files:**
    - In the `QUnit_tests` folder, create an HTML file named `test.html`.
    - Create a file named `integration.test.js` in the same folder.
-Install Live Server:
 
 4. **Install the "Live Server" extension in VS Code for easy test execution.**
    
@@ -43,7 +42,7 @@ Ensure your app server is running. Update your `package.json` if needed to inclu
 
 ## Running Tests
 
-1. Open test.html:
+1. **Open test.html:**
 - Right-click on `test.html` and select "Open with Live Server" to launch it in your browser.
 2. Check Initial Setup:
 - At this stage, you should see the test page.
