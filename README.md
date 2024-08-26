@@ -9,6 +9,9 @@
 4. [Writing Integration Tests](#writing-integration-tests)
 5. [Testing Functionalities](#testing-functionalities)
 6. [Optimization](#optimization)
+7. [Contributing](#Contributing)
+8. [License](#License)
+9. [Contact](#Contact)
 
 ## Project Overview
 
