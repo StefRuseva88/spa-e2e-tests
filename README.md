@@ -42,11 +42,19 @@ Ensure your app server is running. Update your `package.json` if needed to inclu
 
 ## Running Tests
 
-1. **Open test.html:**
+1. **Open `test.html:`**
    - Right-click on `test.html` and select "Open with Live Server" to launch it in your browser.
 2. **Check Initial Setup:**
    - At this stage, you should see the test page.
+     
+## Writing Integration Tests
 
+1. Open `integration.test.js`:
+   - Write code to set up and run your integration tests.
+2. Run the Test:
+   - Save `integration.test.js`.
+   - Refresh the `test.html` page in your browser to see the test results.
+     
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
