@@ -63,6 +63,11 @@ Ensure your app server is running. Update your `package.json` if needed to inclu
    - Get Game By Id: Verify that retrieving a game by ID works correctly.
    - Edit Game: Test editing an existing game and confirm the changes.
    - Delete Game: Ensure that deleting a game is handled correctly.
+2, **Test Comment Functionality**
+   - Test Newly Created Game with No Comments: Verify that new games have no comments initially.
+   - Post New Comment: Test posting a new comment and check the response.
+   - Comments For Specific Game: Verify comments for a specific game.
+     
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
