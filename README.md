@@ -68,6 +68,12 @@ Ensure your app server is running. Update your `package.json` if needed to inclu
    - Test Newly Created Game with No Comments: Verify that new games have no comments initially.
    - Post New Comment: Test posting a new comment and check the response.
    - Comments For Specific Game: Verify comments for a specific game.
+
+## Optimization
+
+   - Refactor code to reuse variables and avoid redundancy.
+   - Use dynamic values for test data to ensure tests are resilient and less dependent on hard-coded values.
+   - Consider creating helper functions to simplify repetitive tasks.
      
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
