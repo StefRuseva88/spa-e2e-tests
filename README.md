@@ -37,3 +37,12 @@ Install Live Server:
    
 6. **Start the Server:**
 Ensure your app server is running. Update your `package.json` if needed to include the "server" script and start it with `npm run server`.
+
+## Contributing
+Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions or suggestions, please open an issue in the repository.
