@@ -44,14 +44,15 @@
 5. **Install Playwright:**
 - Add Playwright to your project by running:
   
-``bash
+``
 npm install @playwright/test --save-dev
 ``
 - You can also install the necessary browsers with:
   
-``bash
+``
 npx playwright install
 ``
+
 6. **Set Up Playwright Configuration:**
 - In the root of your project, create a playwright.config.js file and configure it for your testing environment
 
