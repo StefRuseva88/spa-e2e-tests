@@ -62,21 +62,31 @@ Ensure your app server is running. Update your `package.json` if needed to inclu
 ## Running Tests
 
 1. **Running QUnit Tests:**
+   
 i. Open `test.html:`
+
    - Right-click on `test.html` and select "Open with Live Server" to launch it in your browser.
+     
 ii. Check Initial Setup:
+
    - At this stage, you should see the test page.
+     
 3. **Running Playwright Tests:**
+   
 i. Write Playwright Tests:
+
    - In the Playwright_tests folder, create a new file, e.g., `e2e.test.js`, and write your Playwright tests.
+     
 ii. Run Playwright Tests:
+
    - Execute the tests using one of the following command:
      
 `` 
 npx playwright test/npm run test
 ``
 iii. View Test Results:
-   -The results will be displayed in the terminal. You can also generate a report by running:
+
+   - The results will be displayed in the terminal. You can also generate a report by running:
    
 ``
 npx playwright show-report
