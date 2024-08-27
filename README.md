@@ -42,18 +42,20 @@
 4. **Install the "Live Server" extension in VS Code for easy test execution.**
    
 5. **Install Playwright:**
+   
    - Add Playwright to your project by running:
   
    ``
    npm install @playwright/test --save-dev
    ``
+   
    - You can also install the necessary browsers with:
   
    ``
    npx playwright install
    ``
 
-6. **Set Up Playwright Configuration:**
+7. **Set Up Playwright Configuration:**
 - In the root of your project, create a playwright.config.js file and configure it for your testing environment
 
 7. **Start the Server:**
@@ -73,17 +75,18 @@ ii. Check Initial Setup:
      
 3. **Running Playwright Tests:**
    
-i. Write Playwright Tests:
+    i. Write Playwright Tests:
 
    - In the Playwright_tests folder, create a new file, e.g., `e2e.test.js`, and write your Playwright tests.
      
-ii. Run Playwright Tests:
+   ii. Run Playwright Tests:
 
    - Execute the tests using one of the following command:
      
 `` 
 npx playwright test/npm run test
 ``
+
 iii. View Test Results:
 
    - The results will be displayed in the terminal. You can also generate a report by running:
