@@ -41,7 +41,21 @@
 
 4. **Install the "Live Server" extension in VS Code for easy test execution.**
    
-5. **Start the Server:**
+5. **Install Playwright:**
+- Add Playwright to your project by running:
+  
+``bash
+npm install @playwright/test --save-dev
+``
+- You can also install the necessary browsers with:
+  
+``bash
+npx playwright install
+``
+6. **Set Up Playwright Configuration:**
+- In the root of your project, create a playwright.config.js file and configure it for your testing environment
+
+7. **Start the Server:**
 Ensure your app server is running. Update your `package.json` if needed to include the "server" script and start it with `npm run server`.
 
 ## Running Tests
