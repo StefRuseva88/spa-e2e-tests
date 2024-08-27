@@ -91,13 +91,13 @@ ii. Check Initial Setup:
 npx playwright test/npm run test
 ```
 
-iii. View Test Results:
+   iii. View Test Results:
 
    - The results will be displayed in the terminal. You can also generate a report by running:
    
-``
+```
 npx playwright show-report
-``
+```
 
 ## Writing Integration Tests
 
