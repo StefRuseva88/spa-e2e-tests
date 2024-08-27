@@ -6,7 +6,8 @@
     "scripts": {
         "start": "http-server -a localhost -p 3001 -P http://localhost:3001? -c-1",
         "lite": "lite-server",
-        "server": "cd server && node server.js"
+        "server": "cd server && node server.js",
+        "test": "npx playwright test e2e.test.js --debug"
     },
     "author": "",
     "license": "ISC",
