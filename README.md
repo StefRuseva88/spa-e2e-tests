@@ -33,7 +33,7 @@
 
 2. **Create Testing Folders:**
    - Create a folder named `tests`.
-   - Inside `tests`, create two sub-folders: `QUnit_tests` and `Playwright_tests`. For now, leave `Playwright_tests` empty.
+   - Inside `tests`, create two sub-folders: `QUnit_tests` and `Playwright_tests`.
 
 3. **Create HTML and JS Files:**
    - In the `QUnit_tests` folder, create an HTML file named `test.html`.
