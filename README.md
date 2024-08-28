@@ -10,12 +10,11 @@
 1. [Project Overview](#project-overview)
 2. [Setup Instructions](#setup-instructions)
 3. [Running Tests](#running-tests)
-4. [Writing Integration Tests](#writing-integration-tests)
-5. [Testing Functionalities](#testing-functionalities)
-6. [Optimization](#optimization)
-7. [Contributing](#Contributing)
-8. [License](#License)
-9. [Contact](#Contact)
+4. [Testing Functionalities](#testing-functionalities)
+5. [Optimization](#optimization)
+6. [Contributing](#Contributing)
+7. [License](#License)
+8. [Contact](#Contact)
 
 ## Project Overview
 
@@ -99,14 +98,6 @@ npx playwright test/npm run test
 npx playwright show-report
 ```
 
-## Writing Integration Tests
-
-1. **Open `integration.test.js`:**
-   - Write code to set up and run your integration tests.
-2. **Run the Test:**
-   - Save `integration.test.js`.
-   - Refresh the `test.html` page in your browser to see the test results.
-     
 ## Testing Functionalities
 
 ### 1. **Test Game Functionality**
