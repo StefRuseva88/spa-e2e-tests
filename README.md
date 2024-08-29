@@ -28,7 +28,7 @@
 ### 1. Configure the Project for Testing
 
 1. **Open Project:**
-   - Open your SPA project in VS Code.
+   - Open SPA project in VS Code.
 
 2. **Create Testing Folders:**
    - Create a folder named `tests`.
