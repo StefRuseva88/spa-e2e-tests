@@ -20,7 +20,7 @@
 
 - Setting up project for testing.
 - Writing integration tests.
-- Running and verifying your tests.
+- Running and verifying tests.
 - Testing various functionalities of the SPA.
 
 ## Setup Instructions
