@@ -7,7 +7,7 @@
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)
+1. [Project Summary](#project-summary)
 2. [Setup Guide](#setup-guide)
 3. [Executing Tests](#executing-tests)
 4. [Functional Testing](#functional-testing)
@@ -16,7 +16,7 @@
 7. [License](#License)
 8. [Contact](#Contact)
 
-## Project Overview
+## Project Summary
 
 - Setting up project for testing.
 - Writing integration tests.
