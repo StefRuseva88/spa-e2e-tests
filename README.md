@@ -18,10 +18,10 @@
 
 ## Project Summary
 
-- Setting up project for testing.
-- Writing integration tests.
-- Running and verifying tests.
-- Testing various functionalities of the SPA.
+- Configure the project for testing.
+- Develop integration tests.
+- Execute and verify test results.
+- Assess different functionalities within the SPA.
 
 ## Setup Guide
 
