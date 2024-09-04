@@ -11,10 +11,9 @@
 2. [Setup Guide](#setup-guide)
 3. [Executing Tests](#executing-tests)
 4. [Functional Testing](#functional-testing)
-5. [Optimization Tips](#optimization-tips)
-6. [Contributing](#Contributing)
-7. [License](#License)
-8. [Contact](#Contact)
+5. [Contributing](#Contributing)
+6. [License](#License)
+7. [Contact](#Contact)
 
 ## Project Summary
 
@@ -25,40 +24,40 @@
 
 ## Setup Guide
 
-### 1. Configure the Project for Testing
+### 1. Prepare the Project for Testing
 
 1. **Open Project:**
-   - Open the SPA project in VS Code.
+   - Launch the SPA project in Visual Studio Code.
 
-2. **Create Testing Folders:**
-   - Create a folder named `tests`.
-   - Inside `tests`, create two sub-folders: `QUnit_tests` and `Playwright_tests`.
+2. **Organize Testing Files**
+   - Create a `tests` folder.
+   - Within `tests`, create `QUnit_tests` and `Playwright_tests` subfolders.
 
-3. **Create HTML and JS Files:**
-   - In the `QUnit_tests` folder, create an HTML file named `test.html`.
-   - Create a file named `integration.test.js` in the same folder.
+3. **Set Up Test Files:**
+   - In `QUnit_tests`, create `test.html`.
+   - Add `integration.test.js` in the same folder.
 
-4. **Install the "Live Server" extension in VS Code for easy test execution.**
+4. **Install "Live Server" Extension in VS Code for smooth test execution.**
    
 5. **Install Playwright:**
    
-   - Add Playwright to your project by running:
+   - Add Playwright to your project:
   
    ```
    npm install @playwright/test --save-dev
    ```
    
-   - You can also install the necessary browsers with:
+   - Install required browsers:
   
    ```
    npx playwright install
    ```
 
-7. **Set Up Playwright Configuration:**
-- In the root of your project, create a playwright.config.js file and configure it for your testing environment
+7. **Configure Playwright:**
+- In your project’s root directory, create a `playwright.config.js` file and set up your testing environment.
 
-7. **Start the Server:**
-- Ensure your app server is running. Update your `package.json` if needed to include the "server" script and start it with:
+7. **Start the App Server:**
+- Ensure your server is active. Update `package.json` if necessary to include a "server" script and start it with:
 
 ```
 npm run server
@@ -68,31 +67,19 @@ npm run server
 
 1. **Running QUnit Tests:**
    
-i. Open `test.html:`
+- Open `test.html:` and right-click on `test.html` then select "Open with Live Server" to launch it in your browser. You should see the test interface displayed.
 
-   - Right-click on `test.html` and select "Open with Live Server" to launch it in your browser.
      
-ii. Check Initial Setup:
+2. **Running Playwright Tests:**
 
-   - At this stage, you should see the test page.
-     
-3. **Running Playwright Tests:**
-   
-    i. Write Playwright Tests:
-
-   - In the Playwright_tests folder, create a new file, e.g., `e2e.test.js`, and write your Playwright tests.
-     
-   ii. Run Playwright Tests:
-
-   - Execute the tests using one of the following command:
+- In the `Playwright_tests folder`, create a new file, e.g., `e2e.test.js`, and write your Playwright tests.
+- Execute the tests using one of the following command:
           
 ```
 npx playwright test/npm run test
 ```
 
-   iii. View Test Results:
-
-   - The results will be displayed in the terminal. You can also generate a report by running:
+- The results will be displayed in the terminal. You can also generate a report by running:
    
 ```
 npx playwright show-report
@@ -100,23 +87,17 @@ npx playwright show-report
 
 ## Functional Testing
 
-### 1. **Test Game Functionality**
-   - Get All Games: Test the API endpoint to retrieve all games and validate the response.
-   - Create Game: Test creating a new game and ensure the response is as expected.
-   - Get Game By Id: Verify that retrieving a game by ID works correctly.
-   - Edit Game: Test editing an existing game and confirm the changes.
-   - Delete Game: Ensure that deleting a game is handled correctly.
+### 1. **Game Functionality Tests**
+   - Retrieve All Games: Test the API endpoint to fetch all games and validate the response.
+   - Create Game: Test the creation of a new game and ensure it returns the correct response.
+   - Get Game by ID: Confirm that fetching a game by its ID functions properly.
+   - Edit Game: Test the update of an existing game and verify the changes.
+   - Delete Game: Ensure the deletion of a game works as expected.
      
-### 2. **Test Comment Functionality**
-   - Test Newly Created Game with No Comments: Verify that new games have no comments initially.
-   - Post New Comment: Test posting a new comment and check the response.
-   - Comments For Specific Game: Verify comments for a specific game.
-
-## Optimization Tips
-
-   - Refactor code to reuse variables and avoid redundancy.
-   - Use dynamic values for test data to ensure tests are resilient and less dependent on hard-coded values.
-   - Consider creating helper functions to simplify repetitive tasks.
+### 2. **Comment Functionality Tests**
+   - Test a New Game with No Comments: Ensure that new games initially have no comments.
+   - Post a New Comment: Test adding a new comment and verify the response.
+   - Comments for a Specific Game: Check that comments for a specific game are correctly retrieved.
      
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
