@@ -8,10 +8,10 @@
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
-2. [Setup Instructions](#setup-instructions)
-3. [Running Tests](#running-tests)
-4. [Testing Functionalities](#testing-functionalities)
-5. [Optimization](#optimization)
+2. [Setup Guide](#setup-guide)
+3. [Executing Tests](#executing-tests)
+4. [Functional Testing](#functional-testing)
+5. [Optimization Tips](#optimization-tips)
 6. [Contributing](#Contributing)
 7. [License](#License)
 8. [Contact](#Contact)
@@ -23,7 +23,7 @@
 - Running and verifying tests.
 - Testing various functionalities of the SPA.
 
-## Setup Instructions
+## Setup Guide
 
 ### 1. Configure the Project for Testing
 
@@ -64,7 +64,7 @@ Ensure your app server is running. Update your `package.json` if needed to inclu
 npm run server
 ```
 
-## Running Tests
+## Executing Tests
 
 1. **Running QUnit Tests:**
    
@@ -98,7 +98,7 @@ npx playwright test/npm run test
 npx playwright show-report
 ```
 
-## Testing Functionalities
+## Functional Testing
 
 ### 1. **Test Game Functionality**
    - Get All Games: Test the API endpoint to retrieve all games and validate the response.
@@ -112,7 +112,7 @@ npx playwright show-report
    - Post New Comment: Test posting a new comment and check the response.
    - Comments For Specific Game: Verify comments for a specific game.
 
-## Optimization
+## Optimization Tips
 
    - Refactor code to reuse variables and avoid redundancy.
    - Use dynamic values for test data to ensure tests are resilient and less dependent on hard-coded values.
