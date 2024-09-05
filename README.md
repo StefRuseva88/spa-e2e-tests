@@ -7,13 +7,13 @@
 
 ## Table of Contents
 
-1. [Project Summary](#project-summary)
-2. [Setup Guide](#setup-guide)
-3. [Executing Tests](#executing-tests)
-4. [Functional Testing](#functional-testing)
-5. [Contributing](#Contributing)
-6. [License](#License)
-7. [Contact](#Contact)
+- [Project Summary](#project-summary)
+- [Setup Guide](#setup-guide)
+- [Executing Tests](#executing-tests)
+- [Functional Testing](#functional-testing)
+- [Contributing](#Contributing)
+- [License](#License)
+- [Contact](#Contact)
 
 ## Project Summary
 
