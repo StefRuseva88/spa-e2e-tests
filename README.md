@@ -98,9 +98,6 @@ npx playwright show-report
    - Test a New Game with No Comments: Ensure that new games initially have no comments.
    - Post a New Comment: Test adding a new comment and verify the response.
    - Comments for a Specific Game: Check that comments for a specific game are correctly retrieved.
-     
-## Contributing
-Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
 ## License
 This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
