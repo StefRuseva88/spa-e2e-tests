@@ -4,7 +4,7 @@
 [![QUnit](https://img.shields.io/badge/tested%20with-QUnit-9C4CB4.svg)](https://qunitjs.com/)
 [![Playwright](https://img.shields.io/badge/tested%20with-Playwright-6E40C9.svg)](https://playwright.dev/)
 
-## 📚 This is a Project for Front-End Technologies May 2024 Course @ SoftUni
+## This is a Project for Front-End Technologies May 2024 Course @ SoftUni
 ---
 
 ## 🔄 Project Summary
