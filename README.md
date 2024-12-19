@@ -8,7 +8,7 @@
 
 ## 🔄 Table of Contents
 
-- [ 🔄 Project Summary](#project-summary)
+- [🔄 Project Summary](#🔄-project-summary)
 - [Setup Guide](#setup-guide)
 - [Executing Tests](#executing-tests)
 - [Functional Testing](#functional-testing)
