@@ -5,16 +5,7 @@
 [![Playwright](https://img.shields.io/badge/tested%20with-Playwright-6E40C9.svg)](https://playwright.dev/)
 
 ## 📚 This is a Project for Front-End Technologies May 2024 Course @ SoftUni
-
-## 🔄 Table of Contents
-
-- [Project Summary](#project-summary)
-- [Setup Guide](#setup-guide)
-- [Executing Tests](#executing-tests)
-- [Functional Testing](#functional-testing)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+---
 
 ## 🔄 Project Summary
 
